@@ -5,7 +5,11 @@ import CourseDetailCard from './courseDetailCard'
 const DesignCourseList = () => {
   return (
     <View>{
-        courseList && courseList.data.courses.map((data)=>{  if(data.type===1) return <CourseDetailCard key={data.id} name={data.heading} hours = {data.duration.hours} minutes = {data.duration.minutes}  rating = {data.rating} icon={data.icon} image={data.imagePath}/>})
+        courseList && courseList.data.courses.map((data)=>{  if(data.type===1) return (
+          <View key={data.id}>
+        <CourseDetailCard key={data.id} name={data.heading} hours = {data.duration.hours} minutes = {data.duration.minutes}  rating = {data.rating} icon={data.icon} />
+        </View>
+        )})
         }</View>
   )
 }

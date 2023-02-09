@@ -10,10 +10,11 @@ interface CourseDetailCardPropTypes{
   rating:number;
   icon:string;
 }
-const CourseDetailCard = (props) => {
-  const { name , hours , minutes , rating , icon ,key} = props
+const CourseDetailCard = (props:CourseDetailCardPropTypes) => {
+  const { name , hours , minutes , rating , icon} = props
+  console.log(props)
   return (
-    <View style={styles.mainContainer} key={key}>
+    <View style={styles.mainContainer}>
       <View style={styles.iconHolder}>
       <Icon name={icon} size={38} color={colors.common}/>
       </View>

@@ -4,9 +4,15 @@ import courseList from '../data/courseList.json'
 import CourseDetailCard from './courseDetailCard'
 const AllCourseList = () => {
   return (
-    <View>{
-      courseList && courseList.data.courses.map((data)=><CourseDetailCard key={data.id} name={data.heading} hours = {data.duration.hours} minutes = {data.duration.minutes}  rating = {data.rating} icon={data.icon}/>)
-      }</View>
+    <View>
+      {
+      courseList && courseList.data.courses.map((data)=>
+      <View key={data.id}>
+        <CourseDetailCard name={data.heading} hours = {data.duration.hours} minutes = {data.duration.minutes}  rating = {data.rating} icon={data.icon}/>
+        </View>
+        )
+      }
+      </View>
   )
 }
 
