@@ -26,7 +26,7 @@ const Home = () => {
         {/* Welcome Text */}
         <View style={{flexDirection: 'column', marginTop: 25,gap:10}}>
           <Text style={styles.welcomeFont}>Hello,Habibah</Text>
-          <Text style={styles.questionText}>What do you whant to learn?</Text>
+          <Text style={styles.questionText}>What do you want to learn?</Text>
           <TextInputWithIcon placeHolder={'Search'} icon={'ios-search'} showIcon setValue={setSearch}/>
         </View>
         {/* New Course Image Container */}
