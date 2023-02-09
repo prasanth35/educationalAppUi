@@ -1,0 +1,84 @@
+{
+  "data": {
+    "courses": [
+      {
+        "id": 1,
+        "type": 1,
+        "category": "design",
+        "heading": "Photoshop Course",
+        "rating": 5.0,
+        "icon":"camera",
+        "imagePath":"../assets/camera",
+        "duration": {
+          "hours": 5,
+          "minutes": 15
+        }
+      },
+      {
+        "id": 2,
+        "type": 1,
+        "category": "design",
+        "heading": "3D Design",
+        "rating": 4.0,
+        "icon":"cube",
+        "imagePath":"../assets/camera",
+        "duration": {
+          "hours": 3,
+          "minutes": 20
+        }
+      },
+      {
+        "id": 3,
+        "type": 1,
+        "category": "design",
+        "heading": "Figma",
+        "rating": 2.5,
+        "icon":"cube",
+        "imagePath":"../assets/camera",
+        "duration": {
+          "hours": 2,
+          "minutes": 30
+        }
+      },
+      {
+        "id": 4,
+        "type": 2,
+        "category": "programming",
+        "heading": "React Native",
+        "rating": 2.5,
+        "icon":"code",
+        "imagePath":"../assets/camera",
+        "duration": {
+          "hours": 2,
+          "minutes": 30
+        }
+      },
+      {
+        "id": 5,
+        "type": 2,
+        "category": "programming",
+        "heading": "C++",
+        "rating": 2.5,
+        "icon":"code-slash",
+        "imagePath":"../assets/camera.png",
+        "duration": {
+          "hours": 2,
+          "minutes": 30
+        }
+      },
+      {
+        "id": 6,
+        "type": 2,
+        "category": "programming",
+        "heading": "Python",
+        "rating": 2.5,
+        "icon":"code-working",
+        "imagePath":"../assets/camera",
+        "duration": {
+          "hours": 2,
+          "minutes": 30
+        }
+      }
+    ]
+  }
+}
