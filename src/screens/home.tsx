@@ -1,4 +1,3 @@
-import {Image} from '@rneui/base';
 import React, { useState } from 'react';
 import {
   Text,
